@@ -93,7 +93,7 @@ class LocationController extends Controller
 
         $location->delete();
 
-        return response()->json(["message" => "$name à été supprimé avec succès !"], 204);
+        return response()->json(["message" => "$name à été modifié avec succès !"], 204);
     }
     
 }
